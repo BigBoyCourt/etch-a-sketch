@@ -1,16 +1,26 @@
+body {
+
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items:  center;
     flex-wrap: wrap;
     width : 360px;
-    gap: 2px;
     margin: auto;
 }
 
 .container > div {
-    flex: 0 0 20px;
-    height: 20px;
+    aspect-ratio: 1;
     background-color: grey;
+    gap: .5px;
+    
+}
+
+ .resetBtn {
+    display: block;
+    margin:  0 auto;
+    margin-bottom: 10px;
     
 }
