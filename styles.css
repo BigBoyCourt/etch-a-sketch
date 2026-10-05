@@ -4,14 +4,15 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items:  center;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width : 360px;
-    margin: auto;
+    margin: 0 auto;
+    border: black solid 2px;
 }
 
-.container > div {
+.container > div  {
     aspect-ratio: 1;
     background-color: grey;
     gap: .5px;
@@ -22,5 +23,5 @@ body {
     display: block;
     margin:  0 auto;
     margin-bottom: 10px;
-    
 }
+
